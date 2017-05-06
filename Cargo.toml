@@ -1,0 +1,14 @@
+[package]
+name = "piston-binpool"
+version = "0.1.0"
+authors = ["Sven Nilsen <bvssvni@gmail.com>"]
+keywords = ["analysis", "particle", "physics", "piston"]
+description = "An experimental uniform binary format for particle physics"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PistonDevelopers/binpool.git"
+homepage = "https://github.com/PistonDevelopers/binpool"
+
+[lib]
+name = "binpool"
+path = "src/lib.rs"
